@@ -133,6 +133,20 @@ public class Board {
         return true;
     }
 
+    /**
+     * Returns a deep copy of this board. The copy is fully independent:
+     * modifications to either board will not affect the other.
+     *
+     * @return a new {@link Board} with identical stone counts at every position
+     */
+    public Board copy() {
+        Board copy = new Board();
+        for (int i = 0; i < BOARD_SIZE; i++) {
+            copy.setStones(i, this.getStones(i));
+        }
+        return copy;
+    }
+
     private void validatePosition(int position) {
         if (position < 0 || position >= BOARD_SIZE) {
             throw new IllegalArgumentException(

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - com.mancala.advisor.PitTest</title>
+<title>Test results - com.mancala.advisor.TurnSimulatorTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
@@ -12,7 +12,7 @@
 <div id="content">
 <div class="breadcrumbs">
 <a class="breadcrumb" href="../index.html">all</a> &gt; 
-<span class="breadcrumb">com.mancala.advisor.PitTest</span>
+<span class="breadcrumb">com.mancala.advisor.TurnSimulatorTest</span>
 </div>
 <div class="tab-container">
 <ul class="tabLinks">
@@ -22,7 +22,7 @@
 </ul>
 <div class="tab">
 <h2>Gradle Test Run :test</h2>
-<h1>PitTest</h1>
+<h1>TurnSimulatorTest</h1>
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
@@ -41,7 +41,7 @@
 <tr>
 <td>
 <div class="infoBox">
-<div class="counter">9</div>
+<div class="counter">10</div>
 <p>tests</p>
 </div>
 </td>
@@ -59,7 +59,7 @@
 </td>
 <td>
 <div class="infoBox duration">
-<div class="counter">0.003s</div>
+<div class="counter">0.004s</div>
 <p>duration</p>
 </div>
 </td>
@@ -89,8 +89,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">addStoneIncreasesCount()</td>
-<td class="path" hidden="">addStoneIncreasesCount()</td>
+<td class="success">avalancheTriggers()</td>
+<td class="path" hidden="">avalancheTriggers()</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -98,62 +98,8 @@
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">addStoneMultipleTimes()</td>
-<td class="path" hidden="">addStoneMultipleTimes()</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">cannotCreatePitWithNegativeStones()</td>
-<td class="path" hidden="">cannotCreatePitWithNegativeStones()</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">emptyPitIsEmpty()</td>
-<td class="path" hidden="">emptyPitIsEmpty()</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">newPitCanStartWithStones()</td>
-<td class="path" hidden="">newPitCanStartWithStones()</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">newPitStartsEmpty()</td>
-<td class="path" hidden="">newPitStartsEmpty()</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">pitWithStonesIsNotEmpty()</td>
-<td class="path" hidden="">pitWithStonesIsNotEmpty()</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0s</td>
-<td class="success">100%</td>
-</tr>
-<tr>
-<td class="success">removeAllStonesLeavesPitEmpty()</td>
-<td class="path" hidden="">removeAllStonesLeavesPitEmpty()</td>
+<td class="success">emptyStartingPitReturnsUnchanged()</td>
+<td class="path" hidden="">emptyStartingPitReturnsUnchanged()</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -161,12 +107,75 @@
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">removeAllStonesReturnsCount()</td>
-<td class="path" hidden="">removeAllStonesReturnsCount()</td>
+<td class="success">inputBoardIsNotMutated()</td>
+<td class="path" hidden="">inputBoardIsNotMutated()</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">lastStoneInOwnEmptyPitEndsTurn()</td>
+<td class="path" hidden="">lastStoneInOwnEmptyPitEndsTurn()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">lastStoneInOwnStoreGrantsFreeTurn()</td>
+<td class="path" hidden="">lastStoneInOwnStoreGrantsFreeTurn()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.001s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">player2BasicSowing()</td>
+<td class="path" hidden="">player2BasicSowing()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">player2LastStoneInOwnStore()</td>
+<td class="path" hidden="">player2LastStoneInOwnStore()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">simpleSowingNoAvalanche()</td>
+<td class="path" hidden="">simpleSowingNoAvalanche()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">skipsOpponentStore()</td>
+<td class="path" hidden="">skipsOpponentStore()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">wrongOwnerThrowsException()</td>
+<td class="path" hidden="">wrongOwnerThrowsException()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 </table>
