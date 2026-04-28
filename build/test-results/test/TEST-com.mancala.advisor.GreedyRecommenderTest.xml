@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mancala.advisor.GreedyRecommenderTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-04-28T04:57:08.280Z" hostname="Mac.lan" time="0.004">
+  <properties/>
+  <testcase name="worksForPlayer2()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.0"/>
+  <testcase name="allPitsEmptyThrowsException()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.001"/>
+  <testcase name="tiePicksLowerIndex()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.0"/>
+  <testcase name="invalidPlayerThrowsException()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.001"/>
+  <testcase name="recommendsPitThatGivesMostStones()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.0"/>
+  <testcase name="skipsEmptyPits()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.0"/>
+  <testcase name="recommendsFreeTurnPit()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.001"/>
+  <testcase name="doesNotMutateInputBoard()" classname="com.mancala.advisor.GreedyRecommenderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

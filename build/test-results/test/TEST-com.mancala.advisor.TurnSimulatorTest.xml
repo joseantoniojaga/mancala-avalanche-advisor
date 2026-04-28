@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mancala.advisor.TurnSimulatorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-04-28T04:57:08.287Z" hostname="Mac.lan" time="0.004">
+  <properties/>
+  <testcase name="skipsOpponentStore()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <testcase name="lastStoneInOwnStoreGrantsFreeTurn()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.001"/>
+  <testcase name="player2LastStoneInOwnStore()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <testcase name="inputBoardIsNotMutated()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <testcase name="player2BasicSowing()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <testcase name="simpleSowingNoAvalanche()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <testcase name="wrongOwnerThrowsException()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.001"/>
+  <testcase name="avalancheTriggers()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <testcase name="emptyStartingPitReturnsUnchanged()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.001"/>
+  <testcase name="lastStoneInOwnEmptyPitEndsTurn()" classname="com.mancala.advisor.TurnSimulatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

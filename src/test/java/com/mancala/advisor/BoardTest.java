@@ -115,4 +115,37 @@ class BoardTest {
     void negativeStonesThrowsException() {
         assertThrows(IllegalArgumentException.class, () -> board.setStones(0, -1));
     }
+
+    @Test
+    void copyHasSameStoneCounts() {
+        board.setStones(0, 4);
+        board.setStones(6, 7);
+        board.setStones(13, 3);
+
+        Board copy = board.copy();
+
+        for (int i = 0; i < 14; i++) {
+            assertEquals(board.getStones(i), copy.getStones(i), "Position " + i + " differs");
+        }
+    }
+
+    @Test
+    void copyIsIndependent() {
+        board.setStones(0, 4);
+        Board copy = board.copy();
+
+        copy.setStones(0, 99);
+
+        assertEquals(4, board.getStones(0));
+    }
+
+    @Test
+    void copyIsIndependentReverse() {
+        board.setStones(0, 4);
+        Board copy = board.copy();
+
+        board.setStones(0, 99);
+
+        assertEquals(4, copy.getStones(0));
+    }
 }
