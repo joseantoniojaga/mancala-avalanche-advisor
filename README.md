@@ -1,4 +1,3 @@
-# mancala-avalanche-advisor
 # Mancala Avalanche Advisor
 
 A JavaFX desktop app that recommends the best move for a player in 
