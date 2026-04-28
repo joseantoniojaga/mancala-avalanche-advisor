@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mancala.advisor.PitTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-04-28T03:11:52.331Z" hostname="Mac.lan" time="0.005">
+  <properties/>
+  <testcase name="addStoneIncreasesCount()" classname="com.mancala.advisor.PitTest" time="0.001"/>
+  <testcase name="cannotCreatePitWithNegativeStones()" classname="com.mancala.advisor.PitTest" time="0.001"/>
+  <testcase name="newPitCanStartWithStones()" classname="com.mancala.advisor.PitTest" time="0.0"/>
+  <testcase name="emptyPitIsEmpty()" classname="com.mancala.advisor.PitTest" time="0.0"/>
+  <testcase name="removeAllStonesLeavesPitEmpty()" classname="com.mancala.advisor.PitTest" time="0.0"/>
+  <testcase name="pitWithStonesIsNotEmpty()" classname="com.mancala.advisor.PitTest" time="0.001"/>
+  <testcase name="removeAllStonesReturnsCount()" classname="com.mancala.advisor.PitTest" time="0.0"/>
+  <testcase name="addStoneMultipleTimes()" classname="com.mancala.advisor.PitTest" time="0.001"/>
+  <testcase name="newPitStartsEmpty()" classname="com.mancala.advisor.PitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
