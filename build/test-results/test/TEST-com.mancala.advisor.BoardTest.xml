@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mancala.advisor.BoardTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-04-28T03:19:29.864Z" hostname="Mac.lan" time="0.01">
+  <properties/>
+  <testcase name="positionSixIsPlayerOneStore()" classname="com.mancala.advisor.BoardTest" time="0.001"/>
+  <testcase name="invalidPositionThrowsException()" classname="com.mancala.advisor.BoardTest" time="0.001"/>
+  <testcase name="playerTwoStoreIndexIsThirteen()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="canSetStonesAtPosition()" classname="com.mancala.advisor.BoardTest" time="0.001"/>
+  <testcase name="playerOneSideNotEmptyWhenSomeHaveStones()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="playerOneOwnsPositionsZeroToFive()" classname="com.mancala.advisor.BoardTest" time="0.001"/>
+  <testcase name="newBoardHasFourteenPositions()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="playerOneSideEmptyWhenAllPitsZero()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="playerOneDoesNotOwnPositionSeven()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="canAddStoneAtPosition()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="playerTwoOwnsPositionsSevenToTwelve()" classname="com.mancala.advisor.BoardTest" time="0.001"/>
+  <testcase name="canGetStonesAtPosition()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="positionThirteenIsPlayerTwoStore()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="playerTwoSideEmptyWhenAllPitsZero()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="newBoardAllPitsHaveZeroStones()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="positionZeroIsNotStore()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="negativeStonesThrowsException()" classname="com.mancala.advisor.BoardTest" time="0.0"/>
+  <testcase name="playerOneStoreIndexIsSix()" classname="com.mancala.advisor.BoardTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
